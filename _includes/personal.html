@@ -1,0 +1,32 @@
+<article id="ace-card" class="ace-card bg-primary">
+  <div class="ace-card-inner text-center">
+    <img class="avatar avatar-195" src="{{ '/styles/img/avatar.jpeg' | prepend: site.baseurl }}" width="195" height="195" alt="">
+    <h1>{{ site.name }}</h1>
+    <p class="text-muted">{{ site.location }} | {{ site.position }}</p>
+    <ul class="ace-social clear-list">
+      <li>
+        <a href="{{ site.github }}" title="Github" target="_blank">
+          <span class="ace-icon ace-icon-github"></span>
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.blog }}" title="Blog" target="_blank">
+          <span class="ace-icon ace-icon-blog"></span>
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.wechat }}" title="Wechat">
+          <span class="ace-icon ace-icon-wechat"></span>
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.qq }}" title="QQ">
+          <span class="ace-icon ace-icon-qq"></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <footer class="ace-card-footer">
+    <a class="btn btn-lg btn-block btn-thin btn-upper" href="javascript:void(0)" onclick="window.print()">Download Resume</a>
+  </footer>
+</article>

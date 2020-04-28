@@ -1,0 +1,18 @@
+# Site settings
+name: 冉巧
+location: 陕西 西安
+position: 软件开发工程师
+github: https://github.com/SkylarRan
+blog: https://skylarran.github.io/
+wechat: https://skylarran.github.io/upload/wechatQR.jpeg
+qq: https://skylarran.github.io/upload/qqQR.jpeg
+
+baseurl: "/resume"
+
+permalink: /:year/:month/:day/:title/
+
+exclude: ['README.md']
+
+# Build settings
+markdown: kramdown
+
